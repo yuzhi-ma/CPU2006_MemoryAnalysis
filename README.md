@@ -7,12 +7,19 @@ $ javac ./Main.java
 
 # Run:
 count number of identical pages between two memory dumps:
+
 $ java -Xmx13G Main -cp memoryDump1 memoryDump2
-count number of identical blocks between two memory dumps
+
+count number of identical blocks between two memory dumps:
+
 	$ java -Xmx13G Main -cb memoryDump1 memoryDump2
-count number of identical pages within one memory dump
+	
+count number of identical pages within one memory dump:
+
 	$ java -Xmx13G Main -p memoryDump
-count number of identical blocks within one memory dump
+	
+count number of identical blocks within one memory dump:
+
 	$ java -Xmx13G Main -b memoryDump
 
 Note: -Xmx13G is the system command that allows your program to allocate 13GB   memory at maximum. Make sure you have enough memory before running it.

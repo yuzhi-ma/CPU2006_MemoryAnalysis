@@ -54,7 +54,7 @@ Start dump files:400.1.txt
 
 Sorting:
 
-Start comparison:
+Start comparison:\n
 total non-zero block in first dump: 22720
 total equal block in first dump: 415
 Percentage equal block: 1%

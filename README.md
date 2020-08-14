@@ -32,11 +32,17 @@ Suppose you have two memory dumps, 400.1.txt and 400.2.txt and want to do the co
  	$ java -Xmx13G Main -cp 400.1.txt 400.2.txt
 	
 The java program will print the results like below:
+
 Start loading memory dump: 400.1.txt  400.2.txt
+
 Sorting:
+
 Start comparison:
+
 The number of non-empty page in dump 1 is:355
-total equal Page: 8
+
+total equal Page: 
+
 Percentage: 2%
 
 It shows that those two memory dumps have 8 equal pages and the percentage of equal pages is 2%.
@@ -54,9 +60,12 @@ Start dump files:400.1.txt
 
 Sorting:
 
-Start comparison:\n
+Start comparison:
+
 total non-zero block in first dump: 22720
+
 total equal block in first dump: 415
+
 Percentage equal block: 1%
 
 It shows that the memory dump has 415 equal blocks and the percentage of equal blocks is 1%.

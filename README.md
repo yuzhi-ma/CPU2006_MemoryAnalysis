@@ -1,5 +1,5 @@
-# CPU2006_MemoryAnalysis
-Overview of this java program:
+
+# Overview:
 This java program is designed to do fast memory analysis of CPU2006 in terms of page comparison and block comparison. The program will save all the data it reads from the memory dumps and do fast sorting in order to save running time. Then, it will calculate the percentage of equal blocks or the percentage of equal pages between two memory dumps.
 
 # Compile:
